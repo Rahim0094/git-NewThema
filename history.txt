@@ -1,0 +1,30 @@
+  190  git status
+  191  ls -l .git/index.lock
+  192  rm .git/index.lock
+  193  git commit -m "Add README.md"
+  194  ls -al
+  195  nano .gitignore 
+  196  git status
+  197  git add .gitignore
+  198  git status
+  199  git commnit -m 'Add 2 lines'
+  200  git status
+  201  git commit -m 'Add 2 Lines'
+  202  git status
+  203  git log --online
+  204  t log --oneline
+  205  git log --oneline
+  206  git push -u origin feature 
+  207  git commit --amend -m 'Add 2 Lines New'
+  208  git commit --amend -m "Add 2 Lines amend"
+  209  git log --oneline
+  210  git push --force-with-lease origin feature
+  211  git checkout main
+  212  git merge feature 
+  213  history > history.txt
+  214  ls -l history.txt
+  215  cat history.txt
+  216  ls -al
+  217  rm -r history.txt 
+  218  ls -al
+  219  history | tail -n 30 > history.txt
